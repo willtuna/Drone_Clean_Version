@@ -158,10 +158,8 @@ top (int argc, char **argv)
 	commands(autopilot_interface,0,0,-1,0,0,0);
     
     //Read Message Function
-      si2_message_broadcast(autopilot_interface);   
+    //  si2_message_broadcast(autopilot_interface);   
         
-        
-
 	// --------------------------------------------------------------------------
 	//   THREAD and PORT SHUTDOWN
 	// --------------------------------------------------------------------------
@@ -186,7 +184,6 @@ top (int argc, char **argv)
 // ------------------------------------------------------------------------------
 //   COMMANDS
 // ------------------------------------------------------------------------------
-
 
 // si2_mission
 void si2_mission(float dx, float dy, float dz, float vx, float vy , float vz,mavlink_set_position_target_local_ned_t &sp){
@@ -233,11 +230,6 @@ commands(Autopilot_Interface &api,float dx,float dy,float dz, float vx, float vy
 	    
             sleep(1);
         }
-	/*    mavlink_local_position_ned_t pos = api.current_messages.local_position_ned;
-            printf("Update Initial Position to  XYZ = [ % .4f , % .4f , % .4f ] \n", pos.x, pos.y, pos.z);
-	    api.initial_position.x = pos.x;
-            api.initial_position.y = pos.y;
-            api.initial_position.z = pos.z;*/
 	// Example 1 - Set Velocity
 	/*set_velocity( vx       , // [m/s]
 				  vy       , // [m/s]
