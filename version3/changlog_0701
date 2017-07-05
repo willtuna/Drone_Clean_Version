@@ -1,0 +1,2 @@
+change receive all to be sensitive to local_position_ned, since its frequency is higher than heartbeat,
+so we might have more to fix the response issue, besides, the initial position precision would be higher
