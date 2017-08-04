@@ -1,0 +1,124 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTOPILOT_INTERFACE_H_	autopilot_interface.h	52;"	d
+Autopilot_Interface	autopilot_interface.cpp	/^Autopilot_Interface(Serial_Port *serial_port_)$/;"	f	class:Autopilot_Interface
+Autopilot_Interface	autopilot_interface.h	/^class Autopilot_Interface$/;"	c
+B460800	serial_port.h	75;"	d
+B921600	serial_port.h	79;"	d
+MAVLINK_MSG_SET_POSITION_TARGET_LOCAL_NED_ACCELERATION	autopilot_interface.h	107;"	d
+MAVLINK_MSG_SET_POSITION_TARGET_LOCAL_NED_FORCE	autopilot_interface.h	108;"	d
+MAVLINK_MSG_SET_POSITION_TARGET_LOCAL_NED_POSITION	autopilot_interface.h	105;"	d
+MAVLINK_MSG_SET_POSITION_TARGET_LOCAL_NED_VELOCITY	autopilot_interface.h	106;"	d
+MAVLINK_MSG_SET_POSITION_TARGET_LOCAL_NED_YAW_ANGLE	autopilot_interface.h	109;"	d
+MAVLINK_MSG_SET_POSITION_TARGET_LOCAL_NED_YAW_RATE	autopilot_interface.h	110;"	d
+Mavlink_Messages	autopilot_interface.h	/^struct Mavlink_Messages {$/;"	s
+SERIAL_PORT_CLOSED	serial_port.h	85;"	d
+SERIAL_PORT_ERROR	serial_port.h	86;"	d
+SERIAL_PORT_H_	serial_port.h	51;"	d
+SERIAL_PORT_OPEN	serial_port.h	84;"	d
+Serial_Port	serial_port.cpp	/^Serial_Port()$/;"	f	class:Serial_Port
+Serial_Port	serial_port.cpp	/^Serial_Port(const char *uart_name_ , int baudrate_)$/;"	f	class:Serial_Port
+Serial_Port	serial_port.h	/^class Serial_Port$/;"	c
+Time_Stamps	autopilot_interface.h	/^	Time_Stamps()$/;"	f	struct:Time_Stamps
+Time_Stamps	autopilot_interface.h	/^struct Time_Stamps$/;"	s
+_open_port	serial_port.cpp	/^_open_port(const char* port)$/;"	f	class:Serial_Port
+_read_port	serial_port.cpp	/^_read_port(uint8_t &cp)$/;"	f	class:Serial_Port
+_setup_port	serial_port.cpp	/^_setup_port(int baud, int data_bits, int stop_bits, bool parity, bool hardware_control)$/;"	f	class:Serial_Port
+_write_port	serial_port.cpp	/^_write_port(char *buf, unsigned len)$/;"	f	class:Serial_Port
+attitude	autopilot_interface.h	/^	mavlink_attitude_t attitude;$/;"	m	struct:Mavlink_Messages
+attitude	autopilot_interface.h	/^	uint64_t attitude;$/;"	m	struct:Time_Stamps
+attitude_target	autopilot_interface.h	/^    mavlink_attitude_target_t attitude_target;$/;"	m	struct:Mavlink_Messages
+autopilot_id	autopilot_interface.h	/^	int autopilot_id;$/;"	m	class:Autopilot_Interface
+autopilot_interface_quit	mavlink_control.h	/^Autopilot_Interface *autopilot_interface_quit;$/;"	v
+battery_status	autopilot_interface.h	/^	mavlink_battery_status_t battery_status;$/;"	m	struct:Mavlink_Messages
+battery_status	autopilot_interface.h	/^	uint64_t battery_status;$/;"	m	struct:Time_Stamps
+baudrate	serial_port.h	/^	int  baudrate;$/;"	m	class:Serial_Port
+close_serial	serial_port.cpp	/^close_serial()$/;"	f	class:Serial_Port
+commands	mavlink_control.cpp	/^commands(Autopilot_Interface &api,float dx,float dy,float dz, float vx, float vy, float vz)$/;"	f
+companion_id	autopilot_interface.h	/^	int companion_id;$/;"	m	class:Autopilot_Interface
+compid	autopilot_interface.h	/^	int compid;$/;"	m	struct:Mavlink_Messages
+control_status	autopilot_interface.h	/^	char control_status;$/;"	m	class:Autopilot_Interface
+current_messages	autopilot_interface.h	/^	Mavlink_Messages current_messages;$/;"	m	class:Autopilot_Interface
+current_setpoint	autopilot_interface.h	/^	mavlink_set_position_target_local_ned_t current_setpoint;$/;"	m	class:Autopilot_Interface
+debug	serial_port.h	/^	bool debug;$/;"	m	class:Serial_Port
+disable_offboard_control	autopilot_interface.cpp	/^disable_offboard_control()$/;"	f	class:Autopilot_Interface
+enable_offboard_control	autopilot_interface.cpp	/^enable_offboard_control()$/;"	f	class:Autopilot_Interface
+fd	serial_port.h	/^	int  fd;$/;"	m	class:Serial_Port
+get_current_time	mavlink_control.cpp	/^void get_current_time(void){$/;"	f
+get_current_time	timeTest/GetCurrentTime.c	/^void get_current_time(void){$/;"	f
+get_time_usec	autopilot_interface.cpp	/^get_time_usec()$/;"	f
+global_position_int	autopilot_interface.h	/^	mavlink_global_position_int_t global_position_int;$/;"	m	struct:Mavlink_Messages
+global_position_int	autopilot_interface.h	/^	uint64_t global_position_int;$/;"	m	struct:Time_Stamps
+handle_quit	autopilot_interface.cpp	/^handle_quit( int sig )$/;"	f	class:Autopilot_Interface
+handle_quit	serial_port.cpp	/^handle_quit( int sig )$/;"	f	class:Serial_Port
+heartbeat	autopilot_interface.h	/^	mavlink_heartbeat_t heartbeat;$/;"	m	struct:Mavlink_Messages
+heartbeat	autopilot_interface.h	/^	uint64_t heartbeat;$/;"	m	struct:Time_Stamps
+highres_imu	autopilot_interface.h	/^	mavlink_highres_imu_t highres_imu;$/;"	m	struct:Mavlink_Messages
+highres_imu	autopilot_interface.h	/^	uint64_t highres_imu;$/;"	m	struct:Time_Stamps
+initial_position	autopilot_interface.h	/^	mavlink_set_position_target_local_ned_t initial_position;$/;"	m	class:Autopilot_Interface
+initialize_defaults	serial_port.cpp	/^initialize_defaults()$/;"	f	class:Serial_Port
+lastStatus	serial_port.h	/^	mavlink_status_t lastStatus;$/;"	m	class:Serial_Port
+local_position_ned	autopilot_interface.h	/^	mavlink_local_position_ned_t local_position_ned;$/;"	m	struct:Mavlink_Messages
+local_position_ned	autopilot_interface.h	/^	uint64_t local_position_ned;$/;"	m	struct:Time_Stamps
+lock	serial_port.h	/^	pthread_mutex_t  lock;$/;"	m	class:Serial_Port
+main	mavlink_control.cpp	/^main(int argc, char **argv)$/;"	f
+main	timeTest/GetCurrentTime.c	/^int main(int argc, char* argv[]){$/;"	f
+open_serial	serial_port.cpp	/^open_serial()$/;"	f	class:Serial_Port
+parse_commandline	mavlink_control.cpp	/^parse_commandline(int argc, char **argv, char *&uart_name, int &baudrate)$/;"	f
+position_target_global_int	autopilot_interface.h	/^	mavlink_position_target_global_int_t position_target_global_int;$/;"	m	struct:Mavlink_Messages
+position_target_global_int	autopilot_interface.h	/^	uint64_t position_target_global_int;$/;"	m	struct:Time_Stamps
+position_target_local_ned	autopilot_interface.h	/^	mavlink_position_target_local_ned_t position_target_local_ned;$/;"	m	struct:Mavlink_Messages
+position_target_local_ned	autopilot_interface.h	/^	uint64_t position_target_local_ned;$/;"	m	struct:Time_Stamps
+quit_handler	mavlink_control.cpp	/^quit_handler( int sig )$/;"	f
+radio_status	autopilot_interface.h	/^	mavlink_radio_status_t radio_status;$/;"	m	struct:Mavlink_Messages
+radio_status	autopilot_interface.h	/^	uint64_t radio_status;$/;"	m	struct:Time_Stamps
+read_message	serial_port.cpp	/^read_message(mavlink_message_t &message)$/;"	f	class:Serial_Port
+read_messages	autopilot_interface.cpp	/^read_messages()$/;"	f	class:Autopilot_Interface
+read_thread	autopilot_interface.cpp	/^read_thread()$/;"	f	class:Autopilot_Interface
+read_tid	autopilot_interface.h	/^	pthread_t read_tid;$/;"	m	class:Autopilot_Interface
+reading_status	autopilot_interface.h	/^	char reading_status;$/;"	m	class:Autopilot_Interface
+reset_timestamps	autopilot_interface.h	/^	reset_timestamps()$/;"	f	struct:Mavlink_Messages
+reset_timestamps	autopilot_interface.h	/^	reset_timestamps()$/;"	f	struct:Time_Stamps
+serial_port	autopilot_interface.h	/^	Serial_Port *serial_port;$/;"	m	class:Autopilot_Interface
+serial_port_quit	mavlink_control.h	/^Serial_Port *serial_port_quit;$/;"	v
+set_acceleration	autopilot_interface.cpp	/^set_acceleration(float ax, float ay, float az, mavlink_set_position_target_local_ned_t &sp)$/;"	f
+set_position	autopilot_interface.cpp	/^set_position(float x, float y, float z, mavlink_set_position_target_local_ned_t &sp)$/;"	f
+set_velocity	autopilot_interface.cpp	/^set_velocity(float vx, float vy, float vz, mavlink_set_position_target_local_ned_t &sp)$/;"	f
+set_yaw	autopilot_interface.cpp	/^set_yaw(float yaw, mavlink_set_position_target_local_ned_t &sp)$/;"	f
+set_yaw_rate	autopilot_interface.cpp	/^set_yaw_rate(float yaw_rate, mavlink_set_position_target_local_ned_t &sp)$/;"	f
+si2_message_broadcast	mavlink_control.cpp	/^void si2_message_broadcast(Autopilot_Interface &api){$/;"	f
+si2_mission	mavlink_control.cpp	/^void si2_mission(float dx, float dy, float dz, float vx, float vy , float vz,mavlink_set_position_target_local_ned_t &sp){$/;"	f
+start	autopilot_interface.cpp	/^start()$/;"	f	class:Autopilot_Interface
+start	serial_port.cpp	/^start()$/;"	f	class:Serial_Port
+start_autopilot_interface_read_thread	autopilot_interface.cpp	/^start_autopilot_interface_read_thread(void *args)$/;"	f
+start_autopilot_interface_write_thread	autopilot_interface.cpp	/^start_autopilot_interface_write_thread(void *args)$/;"	f
+start_read_thread	autopilot_interface.cpp	/^start_read_thread()$/;"	f	class:Autopilot_Interface
+start_write_thread	autopilot_interface.cpp	/^start_write_thread(void)$/;"	f	class:Autopilot_Interface
+status	serial_port.h	/^	int  status;$/;"	m	class:Serial_Port
+stop	autopilot_interface.cpp	/^stop()$/;"	f	class:Autopilot_Interface
+stop	serial_port.cpp	/^stop()$/;"	f	class:Serial_Port
+sys_status	autopilot_interface.h	/^	mavlink_sys_status_t sys_status;$/;"	m	struct:Mavlink_Messages
+sys_status	autopilot_interface.h	/^	uint64_t sys_status;$/;"	m	struct:Time_Stamps
+sysid	autopilot_interface.h	/^	int sysid;$/;"	m	struct:Mavlink_Messages
+system_id	autopilot_interface.h	/^    int system_id;$/;"	m	class:Autopilot_Interface
+time_stamps	autopilot_interface.h	/^	Time_Stamps time_stamps;$/;"	m	struct:Mavlink_Messages
+time_to_exit	autopilot_interface.h	/^	bool time_to_exit;$/;"	m	class:Autopilot_Interface
+toggle_offboard_control	autopilot_interface.cpp	/^toggle_offboard_control( bool flag )$/;"	f	class:Autopilot_Interface
+top	mavlink_control.cpp	/^top (int argc, char **argv)$/;"	f
+uart_name	serial_port.h	/^	const char *uart_name;$/;"	m	class:Serial_Port
+update_setpoint	autopilot_interface.cpp	/^update_setpoint(mavlink_set_position_target_local_ned_t setpoint)$/;"	f	class:Autopilot_Interface
+vfr_hud	autopilot_interface.h	/^    mavlink_vfr_hud_t vfr_hud;$/;"	m	struct:Mavlink_Messages
+vfr_hud	autopilot_interface.h	/^    uint64_t vfr_hud;$/;"	m	struct:Time_Stamps
+write_count	autopilot_interface.h	/^    uint64_t write_count;$/;"	m	class:Autopilot_Interface
+write_message	autopilot_interface.cpp	/^write_message(mavlink_message_t message)$/;"	f	class:Autopilot_Interface
+write_message	serial_port.cpp	/^write_message(const mavlink_message_t &message)$/;"	f	class:Serial_Port
+write_setpoint	autopilot_interface.cpp	/^write_setpoint()$/;"	f	class:Autopilot_Interface
+write_thread	autopilot_interface.cpp	/^write_thread(void)$/;"	f	class:Autopilot_Interface
+write_tid	autopilot_interface.h	/^	pthread_t write_tid;$/;"	m	class:Autopilot_Interface
+writing_status	autopilot_interface.h	/^	char writing_status;$/;"	m	class:Autopilot_Interface
+~Autopilot_Interface	autopilot_interface.cpp	/^~Autopilot_Interface()$/;"	f	class:Autopilot_Interface
+~Serial_Port	serial_port.cpp	/^~Serial_Port()$/;"	f	class:Serial_Port
